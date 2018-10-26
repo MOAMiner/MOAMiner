@@ -43,7 +43,8 @@ You can always tweak your installation, add new miners, add new pools, add new a
 
 ## Currently Supported Miners:
 
-- almost every miner out there with an API can work with MOAMiner
+- almost every miner out there with an API can work with MOAMiner and a growing list of preconfigured miners comes with your installation
+- sgminer, ccminer, claymore, ewbf, dstm, castxmr, wildrig, bminer, cryptodredge, suprminer, trex, xmrig, zjazz, zenemy, ...
 
 ## MOAMiner is made for you
 
