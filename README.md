@@ -11,6 +11,7 @@ MOAMiner gives you an easy to use Mining Manager with Profit-Switching capabilit
 ## Main Features:
 
 - Online Monitoring
+- Offline Notification by Mail
 - AMD & NVidia supported
 - Profit Switching by different parameters
 - Balance Tracker
