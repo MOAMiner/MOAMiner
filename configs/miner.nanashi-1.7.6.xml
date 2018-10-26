@@ -1,0 +1,44 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="NVIDIA" key="nanashi-1.7.6" api="" version="1.7.6" active="1">
+	<Name>Nanashi</Name>
+	<Fee>1.0</Fee>
+	<CommandLine>-a $ALGO -o $STRATUM -u $USER -p $PASS --api-bind=$APIPORT -d $DLISTCOMMA</CommandLine>
+	<DownloadUri>https://github.com/nicehash/ccminer-nanashi/releases/download/1.7.6-r6/ccminer.zip</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>ccminer.exe</BinaryName>
+	<SupportedAlgorithms>
+		<Algorithm key="blake" params="" minercode=""></Algorithm>
+		<Algorithm key="blakecoin" params="" minercode=""></Algorithm>
+		<Algorithm key="blake2s" params="" minercode=""></Algorithm>
+		<Algorithm key="bmw" params="" minercode=""></Algorithm>
+		<Algorithm key="c11" params="" minercode=""></Algorithm>
+		<Algorithm key="deep" params="" minercode=""></Algorithm>
+		<Algorithm key="dmd-gr" params="" minercode=""></Algorithm>
+		<Algorithm key="fresh" params="" minercode=""></Algorithm>
+		<Algorithm key="fugue256" params="" minercode=""></Algorithm>
+		<Algorithm key="groestl" params="" minercode=""></Algorithm>
+		<Algorithm key="heavy" params="" minercode=""></Algorithm>
+		<Algorithm key="jackpot" params="" minercode=""></Algorithm>
+		<Algorithm key="keccak" params="" minercode=""></Algorithm>
+		<Algorithm key="luffa" params="" minercode=""></Algorithm>
+		<Algorithm key="lyra2" params="" minercode=""></Algorithm>
+		<Algorithm key="mjollnir" params="" minercode=""></Algorithm>
+		<Algorithm key="myr-gr" params="" minercode=""></Algorithm>
+		<Algorithm key="neoscrypt" params="" minercode=""></Algorithm>
+		<Algorithm key="penta" params="" minercode=""></Algorithm>
+		<Algorithm key="quark" params="" minercode=""></Algorithm>
+		<Algorithm key="qubit" params="" minercode=""></Algorithm>
+		<Algorithm key="scrypt-jane" params="" minercode=""></Algorithm>
+		<Algorithm key="s3" params="" minercode=""></Algorithm>
+		<Algorithm key="sib" params="" minercode=""></Algorithm>
+		<Algorithm key="skein2" params="" minercode=""></Algorithm>
+		<Algorithm key="x11" params="" minercode=""></Algorithm>
+		<Algorithm key="x14" params="" minercode=""></Algorithm>
+		<Algorithm key="x15" params="" minercode=""></Algorithm>
+		<Algorithm key="x17" params="" minercode=""></Algorithm>
+		<Algorithm key="vanilla" params="" minercode=""></Algorithm>
+		<Algorithm key="whirlpool" params="" minercode=""></Algorithm>
+		<Algorithm key="zr5" params="" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+	</Environment>
+</Miner>

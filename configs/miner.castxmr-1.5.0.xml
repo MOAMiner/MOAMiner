@@ -1,0 +1,21 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="AMD" key="castxmr-1.5.0" api="genericjson" version="1.5.0" active="1">
+	<Name>cast-xmr</Name>
+	<CommandLine>-S $HOST:$PORT -u $USER -p $PASS -G $DLISTCOMMA -R --remoteport $APIPORT</CommandLine>
+	<DownloadUri>http://www.gandalph3000.com/download/cast_xmr-vega-win64_150.zip</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>cast_xmr-vega.exe</BinaryName>
+	<APISettings style="http" format="json">
+		<Request>/</Request>
+		<Path to="accepted">shares/num_accepted</Path>
+		<Path to="rejected">shares/num_rejected</Path>
+		<Path to="hashrate" multiplier="0.001">devices/$GPUINDEX/hash_rate</Path>
+	</APISettings>
+	<SupportedAlgorithms>
+		<Algorithm key="cryptonightv8" params="--algo=10" minercode=""></Algorithm>
+		<Algorithm key="cryptonightheavy" params="--algo=2" minercode=""></Algorithm>
+		<Algorithm key="cryptonightv7" params="--algo=1" minercode=""></Algorithm>
+		<Algorithm key="cryptonight-monero" params="--algo=10" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+	</Environment>
+</Miner>

@@ -1,0 +1,31 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="AMD" key="wildrig_multi-0.12.4" api="xmrig" version="0.12.4" active="1">
+	<Name>WildRigMulti</Name>
+	<CommandLine>-a $ALGO -o $STRATUM -u $USER -p $PASS --opencl-devices=$DLISTCOMMA --no-color --donate-level=0 --api-port=$APIPORT</CommandLine>
+	<DownloadUri>http://moaminer.com/files/wildrig_multi-0.12.4.zip</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>wildrig\wildrig.exe</BinaryName>
+	<SupportedAlgorithms>
+		<Algorithm key="aergo" params="--opencl-threads 3 --opencl-launch 18x128" minercode=""></Algorithm>
+		<Algorithm key="bcd" params="--opencl-threads 3 --opencl-launch 19x128" minercode=""></Algorithm>
+		<Algorithm key="bitcore" params="--opencl-threads 3 --opencl-launch 19x128" minercode=""></Algorithm>
+		<Algorithm key="c11" params="--opencl-threads 3 --opencl-launch 17x128" minercode=""></Algorithm>
+		<Algorithm key="exosis" params="--opencl-threads 3 --opencl-launch 18x128" minercode=""></Algorithm>
+		<Algorithm key="geek" params="--opencl-threads 3 --opencl-launch 20x128" minercode=""></Algorithm>
+		<Algorithm key="hex" params="--opencl-threads 3 --opencl-launch 22x128" minercode=""></Algorithm>
+		<Algorithm key="hmq1725" params="--opencl-threads 3--opencl-launch 20x128" minercode=""></Algorithm>
+		<Algorithm key="nist5" params="--opencl-threads 3 --opencl-launch 18x128" minercode=""></Algorithm>
+		<Algorithm key="phi" params="--opencl-threads 3 --opencl-launch 18x128" minercode=""></Algorithm>
+		<Algorithm key="polytimos" params="--opencl-threads 3 --opencl-launch 18x128" minercode=""></Algorithm>
+		<Algorithm key="renesis" params="--opencl-threads 3 --opencl-launch 21x128" minercode=""></Algorithm>
+		<Algorithm key="sonoa" params="--opencl-threads 3 --opencl-launch 19x0" minercode=""></Algorithm>
+		<Algorithm key="skunkhash" params="--opencl-threads 3 --opencl-launch 20x0" minercode=""></Algorithm>
+		<Algorithm key="timetravel" params="--opencl-threads 3--opencl-launch 20x128" minercode=""></Algorithm>
+		<Algorithm key="tribus" params="--opencl-threads 3 --opencl-launch 21x0" minercode=""></Algorithm>
+		<Algorithm key="x16r" params="--opencl-threads 3 --opencl-launch 20x128" minercode=""></Algorithm>
+		<Algorithm key="x16s" params="--opencl-threads 3 --opencl-launch 20x128" minercode=""></Algorithm>
+		<Algorithm key="x17" params="--opencl-threads 3 --opencl-launch 20x0" minercode=""></Algorithm>
+		<Algorithm key="x22i" params="--opencl-threads 3 --opencl-launch 20x128" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+	</Environment>
+</Miner>

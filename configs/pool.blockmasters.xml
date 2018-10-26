@@ -1,0 +1,17 @@
+﻿<Pool moa ="0.5.3 BETA r22" key="blockmasters" active="1">
+		<Name>BlockMasters</Name>
+	<Website></Website>
+	<BaseUrl>blockmasters.co</BaseUrl>
+	<API key="yiimp">
+		<Status>http://blockmasters.co/api/status</Status>
+		<Wallet>http://blockmasters.co/api/wallet?address=$USERNAME</Wallet>
+	</API>
+	<Settings>
+		<Username>39iJ7RVFJoo6xK6QSeVAwJqkVRkt4ZNpqE</Username>
+		<Password>c=BTC,ID=NOX</Password>
+		<Region></Region>
+		<Trust>80</Trust>
+		<iRes1>0</iRes1>
+		<sRes1></sRes1>
+	</Settings>
+</Pool>

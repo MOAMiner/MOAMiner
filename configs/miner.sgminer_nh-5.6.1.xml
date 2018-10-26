@@ -1,0 +1,17 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="AMD" key="sgminer_nh-5.6.1" api="sgminer" version="5.6.1" active="1">
+	<Name>SGMiner-NH</Name>
+	<CommandLine>--algorithm $ALGO -o $STRATUM -u $USER -p $PASS --text-only --no-adl --gpu-platform 1 --api-listen --api-port $APIPORT -d $DLISTCOMMA</CommandLine>
+	<DownloadUri>https://github.com/nicehash/sgminer/releases/download/5.6.1/sgminer-5.6.1-nicehash-51-windows-amd64.zip</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>sgminer.exe</BinaryName>
+	<SupportedAlgorithms>
+		<Algorithm key="groestlcoin" params="--gpu-threads 2 --worksize 128 --intensity d" minercode=""></Algorithm>
+		<Algorithm key="lbry" params="" minercode=""></Algorithm>
+		<Algorithm key="lyra2rev2" params="--gpu-threads 2 --worksize 128 --intensity d" minercode=""></Algorithm>
+		<Algorithm key="sibcoin-mod" params="" minercode=""></Algorithm>
+		<Algorithm key="skeincoin" params="--gpu-threads 2 --worksize 256 --intensity d" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+		<Var name="TEST">10</Var>
+	</Environment>
+</Miner>

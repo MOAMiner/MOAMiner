@@ -1,0 +1,16 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="NVIDIA" key="ewbf-0.5" api="ewbf" version="0.5" active="1">
+	<Name>EWBF</Name>
+	<CommandLine>--algo $ALGO --server $HOST --port $PORT --user $USER --pass $PASS --api 127.0.0.1:$APIPORT --cuda_devices $DLISTSPACE --boff --fee 0</CommandLine>
+	<DownloadUri>http://moaminer.com/files/ewbf-0.5.zip</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>miner.exe</BinaryName>
+	<SupportedAlgorithms>
+		<Algorithm key="equihash144" params="" minercode="144_5"></Algorithm>
+		<Algorithm key="equihash192" params="" minercode="192_9"></Algorithm>
+		<Algorithm key="equihash96" params="" minercode="96_5"></Algorithm>
+		<Algorithm key="aion" params="" minercode=""></Algorithm>
+		<Algorithm key="zhash" params="" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+	</Environment>
+</Miner>

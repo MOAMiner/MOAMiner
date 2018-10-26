@@ -1,0 +1,22 @@
+﻿<Pool moa ="0.5.3 BETA r22" key="miningpoolhub" active="1">
+		<Name>MiningPoolHub</Name>
+	<Website></Website>
+	<BaseUrl></BaseUrl>
+	<API key="miningpoolhub">
+		<Status>https://miningpoolhub.com/index.php?page=api&amp;action=getautoswitchingandprofitsstatistics</Status>
+		<Wallet>https://bitcoin.miningpoolhub.com/index.php?page=api&amp;action=getuserbalance&amp;api_key=$SRES1</Wallet>
+	</API>
+	<Regions>
+		<Region code="asia">Asia</Region>
+		<Region code="europe">Europe</Region>
+		<Region code="us-east">US East</Region>
+	</Regions>
+	<Settings>
+		<Username>SouthMining.Robo</Username>
+		<Password>x</Password>
+		<Region>europe</Region>
+		<Trust>100</Trust>
+		<iRes1>0</iRes1>
+		<sRes1></sRes1>
+	</Settings>
+</Pool>

@@ -1,0 +1,12 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="AMD" key="claymore_neoscrypt_amd-1.2" api="claymore" version="1.2" active="1">
+	<Name>Claymore Neoscrypt AMD</Name>
+	<CommandLine>-pool $STRATUM -wal $USER -psw $PASS -mport -$APIPORT -di $DLISTHEX</CommandLine>
+	<DownloadUri>http://moaminer.com/files/claymore_neoscrypt_amd-1.2.zip</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>claymoreneo-1.2\NeoScryptMiner.exe</BinaryName>
+	<SupportedAlgorithms>
+		<Algorithm key="neoscrypt" params="" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+	</Environment>
+</Miner>

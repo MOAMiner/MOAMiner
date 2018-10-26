@@ -1,0 +1,25 @@
+﻿<Pool moa ="0.5.3 BETA r22" key="nicehash" active="1">
+		<Name>NiceHash</Name>
+	<Website></Website>
+	<BaseUrl>$ALGO.$REGION.nicehash.com</BaseUrl>
+	<API key="nicehash">
+		<Status>https://api.nicehash.com/api?method=simplemultialgo.info</Status>
+		<Wallet>https://api.nicehash.com/api?method=stats.provider&amp;addr=$USERNAME</Wallet>
+	</API>
+	<Regions>
+		<Region code="usa">USA - San Jose</Region>
+		<Region code="eu">Europe - Amsterdam</Region>
+		<Region code="hk">China - Hong Kong</Region>
+		<Region code="jp">Japan - Tokyo</Region>
+		<Region code="in">India - Chennai</Region>
+		<Region code="br">Brazil - Sao Paulo</Region>
+	</Regions>
+	<Settings>
+		<Username>38gKNA33Wym8XC2o8sgsz3xBqkhMVFURop</Username>
+		<Password></Password>
+		<Region>eu</Region>
+		<Trust>100</Trust>
+		<iRes1>0</iRes1>
+		<sRes1></sRes1>
+	</Settings>
+</Pool>

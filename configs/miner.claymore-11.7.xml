@@ -1,0 +1,16 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="AMD" key="claymore-11.7" api="claymore" version="11.7" active="1">
+	<Name>Claymore</Name>
+	<CommandLine>-epool $STRATUM -ewal $USER -eworker $USER -epsw $PASS -platform 1 -allpools 1 -mport -$APIPORT -mode 1 -y 1 -r -1 -di $DLISTHEX</CommandLine>
+	<CommandLine forpoolapi="miningpoolhub">-epool $STRATUM -ewal $USER -eworker $USER -epsw $PASS -platform 1 -esm 3 -allpools 1 -mport -$APIPORT -mode 1 -y 1 -r -1 -di $DLISTHEX</CommandLine>
+	<CommandLine forpoolapi="nicehash">-epool $STRATUM -ewal $USER -eworker $USER -epsw $PASS -platform 1 -esm 3 -estale 0 -allpools 1 -mport -$APIPORT -mode 1 -y 1 -r -1 -di $DLISTHEX</CommandLine>
+	<CommandLine forpoolapi="yiimp">-epool $STRATUM -ewal $USER -eworker $USER -epsw $PASS -platform 1 -allpools 1 -mport -$APIPORT -mode 1 -y 1 -r -1 -di $DLISTHEX</CommandLine>
+	<DownloadUri>http://moaminer.com/files/claymore-11.7.zip</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>EthDcrMiner64.exe</BinaryName>
+	<SupportedAlgorithms>
+		<Algorithm key="ethash" params="" minercode=""></Algorithm>
+		<Algorithm key="daggerhashimoto" params="" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+	</Environment>
+</Miner>

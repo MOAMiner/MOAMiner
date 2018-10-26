@@ -1,0 +1,25 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="NVIDIA" key="z_enemy-1.20" api="ccminer" version="1.20" active="1">
+	<Name>Z-Enemy</Name>
+	<CommandLine>-a $ALGO -o $STRATUM -u $USER -p $PASS --api-bind=$APIPORT -d $DLISTCOMMA</CommandLine>
+	<DownloadUri>http://moaminer.com/files/zenemy-1.20.zip</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>zenemy-1.20\z-enemy.exe</BinaryName>
+	<SupportedAlgorithms>
+		<Algorithm key="aeriumx" params="" minercode=""></Algorithm>
+		<Algorithm key="bitcore" params="" minercode=""></Algorithm>
+		<Algorithm key="x16r" params="" minercode=""></Algorithm>
+		<Algorithm key="x16s" params="" minercode=""></Algorithm>
+		<Algorithm key="x17" params="" minercode=""></Algorithm>
+		<Algorithm key="c11" params="" minercode=""></Algorithm>
+		<Algorithm key="phi" params="" minercode=""></Algorithm>
+		<Algorithm key="tribus" params="" minercode=""></Algorithm>
+		<Algorithm key="poly" params="" minercode=""></Algorithm>
+		<Algorithm key="skunk" params="" minercode=""></Algorithm>
+		<Algorithm key="timetravel" params="" minercode=""></Algorithm>
+		<Algorithm key="xevan" params="" minercode=""></Algorithm>
+		<Algorithm key="sonoa" params="" minercode=""></Algorithm>
+		<Algorithm key="phi2" params="" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+	</Environment>
+</Miner>

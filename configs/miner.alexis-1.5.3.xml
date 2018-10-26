@@ -1,0 +1,34 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="NVIDIA" key="alexis-1.5.3" api="" version="1.5.3" active="0">
+	<Name>Alexis</Name>
+	<CommandLine>-a $ALGO -o $STRATUM -u $USER -p $PASS --api-bind=$APIPORT -d $DLISTCOMMA</CommandLine>
+	<DownloadUri>https://github.com/nemosminer/ccminerAlexis78/releases/download/3%2F3%2F2018/ccminer-Alexis78.zip</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>ccminer-Alexis78\ccminer.exe</BinaryName>
+	<SupportedAlgorithms>
+		<Algorithm key="blake" params="" minercode=""></Algorithm>
+		<Algorithm key="decred" params="" minercode=""></Algorithm>
+		<Algorithm key="blakecoin" params="" minercode=""></Algorithm>
+		<Algorithm key="vcash" params="" minercode=""></Algorithm>
+		<Algorithm key="blake2s" params="" minercode=""></Algorithm>
+		<Algorithm key="keccak" params="" minercode=""></Algorithm>
+		<Algorithm key="lyra2" params="" minercode=""></Algorithm>
+		<Algorithm key="lyra2v2" params="" minercode=""></Algorithm>
+		<Algorithm key="skein" params="" minercode=""></Algorithm>
+		<Algorithm key="skein2" params="" minercode=""></Algorithm>
+		<Algorithm key="nist5" params="" minercode=""></Algorithm>
+		<Algorithm key="quark" params="" minercode=""></Algorithm>
+		<Algorithm key="qubit" params="" minercode=""></Algorithm>
+		<Algorithm key="x11" params="" minercode=""></Algorithm>
+		<Algorithm key="x11evo" params="" minercode=""></Algorithm>
+		<Algorithm key="x13" params="" minercode=""></Algorithm>
+		<Algorithm key="x14" params="" minercode=""></Algorithm>
+		<Algorithm key="x15" params="" minercode=""></Algorithm>
+		<Algorithm key="x17" params="" minercode=""></Algorithm>
+		<Algorithm key="whirlpool" params="" minercode=""></Algorithm>
+		<Algorithm key="lbry" params="" minercode=""></Algorithm>
+		<Algorithm key="myr-gr" params="" minercode=""></Algorithm>
+		<Algorithm key="veltor" params="" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+	</Environment>
+</Miner>

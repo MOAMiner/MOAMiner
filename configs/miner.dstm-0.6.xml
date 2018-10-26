@@ -1,0 +1,13 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="NVIDIA" key="dstm-0.6" api="dstm" version="0.6" active="1">
+	<Name>DSTM</Name>
+	<Fee>2.0</Fee>
+	<CommandLine>--server $HOST --port $PORT --user $USER --pass $PASS --telemetry=127.0.0.1:$APIPORT --dev $DLISTSPACE</CommandLine>
+	<DownloadUri>http://moaminer.com/files/dstm-0.6.zip</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>zm_0.6_win\zm.exe</BinaryName>
+	<SupportedAlgorithms>
+		<Algorithm key="equihash" params="" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+	</Environment>
+</Miner>

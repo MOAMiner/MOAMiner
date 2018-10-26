@@ -1,0 +1,24 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="NVIDIA" key="trex-0.7.0" api="genericjson" version="0.7.0" active="1">
+	<Name>TRex</Name>
+	<CommandLine>-a $ALGO -o $STRATUM -u $USER -p $PASS --api-bind-http 127.0.0.1:$APIPORT --api-bind-telnet 0 --devices $DLISTCOMMA</CommandLine>
+	<DownloadUri>http://moaminer.com/files/trex-0.7.0.zip</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>trex-0.7.0\t-rex.exe</BinaryName>
+	<APISettings style="http" format="json">
+		<Request>/summary</Request>
+		<Path to="accepted">accepted_count</Path>
+		<Path to="rejected">rejected_count</Path>
+		<Path to="hashrate">gpus/$GPUINDEX/hashrate</Path>
+	</APISettings>
+	<SupportedAlgorithms>
+		<Algorithm key="bcd" params="" minercode=""></Algorithm>
+		<Algorithm key="bitcore" params="" minercode=""></Algorithm>
+		<Algorithm key="lyra2z" params="" minercode=""></Algorithm>
+		<Algorithm key="phi" params="" minercode=""></Algorithm>
+		<Algorithm key="x16r" params="" minercode=""></Algorithm>
+		<Algorithm key="x16s" params="" minercode=""></Algorithm>
+		<Algorithm key="hmq1725" params="" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+	</Environment>
+</Miner>

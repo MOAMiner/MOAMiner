@@ -1,0 +1,19 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="AMD" key="sgminer_avermore-1.4.1" api="sgminer" version="1.4.1" active="1">
+	<Name>sgminer-avermore</Name>
+	<CommandLine>--algorithm $ALGO -o $STRATUM -u $USER -p $PASS --text-only --no-adl --api-listen --api-port $APIPORT -d $DLISTCOMMA</CommandLine>
+	<DownloadUri>https://github.com/brian112358/avermore-miner/releases/download/v1.4.1/avermore-v1.4.1-windows.zip</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>avermore-windows\sgminer.exe</BinaryName>
+	<SupportedAlgorithms>
+		<Algorithm key="x16r" params="-g 2" minercode=""></Algorithm>
+		<Algorithm key="x16s" params="-g 2" minercode=""></Algorithm>
+		<Algorithm key="xevan" params="-g 2" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+		<Var name="GPU_FORCE_64BIT_PTR">0</Var>
+		<Var name="GPU_USE_SYNC_OBJECTS">1</Var>
+		<Var name="GPU_MAX_ALLOC_PERCENT">100</Var>
+		<Var name="GPU_SINGLE_ALLOC_PERCENT">100</Var>
+		<Var name="GPU_MAX_HEAP_SIZE">100</Var>
+	</Environment>
+</Miner>

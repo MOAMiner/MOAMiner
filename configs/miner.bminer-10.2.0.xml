@@ -1,0 +1,17 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="NVIDIA" key="bminer-10.2.0" api="bminer" version="10.2.0" active="1">
+	<Name>BMiner</Name>
+	<Fee>2.0</Fee>
+	<CommandLine>-uri $ALGO://$URIUSER:$URIPASS@$HOST:$PORT -api 127.0.0.1:$APIPORT -devices $DLISTCOMMA -gpucheck 0 -watchdog=false</CommandLine>
+	<DownloadUri>https://www.bminercontent.com/releases/bminer-lite-v10.2.0-c698b5f-amd64.zip</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>bminer-lite-v10.2.0-c698b5f\bminer.exe</BinaryName>
+	<SupportedAlgorithms>
+		<Algorithm key="equihash" params="" minercode="stratum"></Algorithm>
+		<Algorithm key="equihash144" params="" minercode="equihash1445"></Algorithm>
+		<Algorithm key="zhash" params="" minercode=""></Algorithm>
+		<Algorithm key="ethash" params="" minercode=""></Algorithm>
+		<Algorithm key="tensority" params="" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+	</Environment>
+</Miner>

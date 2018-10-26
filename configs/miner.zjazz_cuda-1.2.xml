@@ -1,0 +1,12 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="NVIDIA" key="zjazz_cuda-1.2" api="ccminer" version="1.2" active="1">
+	<Name>zjazz-cuda</Name>
+	<CommandLine>-a $ALGO -o $STRATUM -u $USER -p $PASS --api-bind=$APIPORT $DLISTMULTI</CommandLine>
+	<DownloadUri>https://github.com/zjazz/zjazz_cuda_miner/releases/download/1.2/zjazz_cuda_win64_1.2.zip</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>zjazz_cuda_win64_1.2\zjazz_cuda.exe</BinaryName>
+	<SupportedAlgorithms>
+		<Algorithm key="x22i" params="" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+	</Environment>
+</Miner>

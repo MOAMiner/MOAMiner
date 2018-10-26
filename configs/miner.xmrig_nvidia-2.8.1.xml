@@ -1,0 +1,17 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="NVIDIA" key="xmrig_nvidia-2.8.1" api="xmrig" version="2.8.1" active="1">
+	<Name>XMRig NVIDIA</Name>
+	<Fee>1.0</Fee>
+	<CommandLine>-a $ALGO -o $HOST:$PORT -u $USER -p $PASS --api-port=$APIPORT --donate-level=1 --no-color --cuda-devices=$DLISTCOMMA</CommandLine>
+	<DownloadUri>https://github.com/xmrig/xmrig-nvidia/releases/download/v2.8.1/xmrig-nvidia-2.8.1-cuda-9_2-win64.zip</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>xmrig-nvidia.exe</BinaryName>
+	<SupportedAlgorithms>
+		<Algorithm key="cryptonightv7" params="--variant 1" minercode="cryptonight"></Algorithm>
+		<Algorithm key="stellite" params="--variant xtl" minercode="cryptonight/xtl"></Algorithm>
+		<Algorithm key="aeon7" params="--variant 1" minercode="cryptonight-lite"></Algorithm>
+		<Algorithm key="ipbc" params="--variant ipbc" minercode="cryptonight-lite"></Algorithm>
+		<Algorithm key="cryptonightheavy" params="--variant 0" minercode="cryptonight-heavy"></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+	</Environment>
+</Miner>

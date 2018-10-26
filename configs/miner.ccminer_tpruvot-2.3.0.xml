@@ -1,0 +1,33 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="NVIDIA" key="ccminer_tpruvot-2.3.0" api="" version="2.3.0" active="1">
+	<Name>CCMiner/tpruvot</Name>
+	<CommandLine>-a $ALGO -o $STRATUM -u $USER -p $PASS --api-bind=$APIPORT -d $DLISTCOMMA</CommandLine>
+	<DownloadUri>https://github.com/tpruvot/ccminer/releases/download/2.3-tpruvot/ccminer-2.3-cuda9.7z</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>ccminer-x64.exe</BinaryName>
+	<SupportedAlgorithms>
+		<Algorithm key="phi2" params="" minercode=""></Algorithm>
+		<Algorithm key="monero" params="" minercode=""></Algorithm>
+		<Algorithm key="stellite" params="" minercode=""></Algorithm>
+		<Algorithm key="graft" params="" minercode=""></Algorithm>
+		<Algorithm key="cryptolight" params="" minercode=""></Algorithm>
+		<Algorithm key="allium" params="" minercode=""></Algorithm>
+		<Algorithm key="sonoa" params="" minercode=""></Algorithm>
+		<Algorithm key="zr5" params="" minercode=""></Algorithm>
+		<Algorithm key="wildkeccak" params="" minercode=""></Algorithm>
+		<Algorithm key="veltor" params="" minercode=""></Algorithm>
+		<Algorithm key="skein2" params="" minercode=""></Algorithm>
+		<Algorithm key="s3" params="" minercode=""></Algorithm>
+		<Algorithm key="phi1612" params="" minercode=""></Algorithm>
+		<Algorithm key="penta" params="" minercode=""></Algorithm>
+		<Algorithm key="myr-gr" params="" minercode=""></Algorithm>
+		<Algorithm key="luffa" params="" minercode=""></Algorithm>
+		<Algorithm key="fresh" params="" minercode=""></Algorithm>
+		<Algorithm key="jackpot" params="" minercode=""></Algorithm>
+		<Algorithm key="fugue256" params="" minercode=""></Algorithm>
+		<Algorithm key="dmd-gr" params="" minercode=""></Algorithm>
+		<Algorithm key="deep" params="" minercode=""></Algorithm>
+		<Algorithm key="bmw" params="" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+	</Environment>
+</Miner>

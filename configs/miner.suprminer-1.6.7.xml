@@ -1,0 +1,13 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="NVIDIA" key="suprminer-1.6.7" api="" version="1.6.7" active="1">
+	<Name>SuprMiner</Name>
+	<CommandLine>-a $ALGO -o $STRATUM -u $USER -p $PASS --api-bind=$APIPORT -d $DLISTCOMMA</CommandLine>
+	<DownloadUri>https://github.com/ocminer/suprminer/releases/download/1.6/suprminer-1.6.7z</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>suprminer-1.6\ccminer.exe</BinaryName>
+	<SupportedAlgorithms>
+		<Algorithm key="x16r" params="" minercode=""></Algorithm>
+		<Algorithm key="x16s" params="" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+	</Environment>
+</Miner>

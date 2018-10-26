@@ -1,0 +1,18 @@
+﻿<Miner moa ="0.5.3 BETA r22" supports="AMD" key="sgminer_teamredminer-0.3.3" api="sgminer" version="0.3.3" active="1">
+	<Name>sgminer-teamredminer</Name>
+	<CommandLine>-a $ALGO -o $STRATUM -u $USER -p $PASS --platform=2 --api_listen=$APIPORT --devices=$DLISTCOMMA</CommandLine>
+	<DownloadUri>https://github.com/todxx/teamredminer/releases/download/v0.3.3/teamredminer-v0.3.3-win.zip</DownloadUri>
+	<ArchivePath></ArchivePath>
+	<BinaryName>teamredminer-v0.3.3-win\teamredminer.exe</BinaryName>
+	<SupportedAlgorithms>
+		<Algorithm key="lyra2z" params="" minercode=""></Algorithm>
+		<Algorithm key="phi2" params="" minercode=""></Algorithm>
+	</SupportedAlgorithms>
+	<Environment>
+		<Var name="GPU_FORCE_64BIT_PTR">0</Var>
+		<Var name="GPU_USE_SYNC_OBJECTS">1</Var>
+		<Var name="GPU_MAX_ALLOC_PERCENT">100</Var>
+		<Var name="GPU_SINGLE_ALLOC_PERCENT">100</Var>
+		<Var name="GPU_MAX_HEAP_SIZE">100</Var>
+	</Environment>
+</Miner>
