@@ -35,6 +35,16 @@ MOAMiner is free to download but will switch to 15 minutes of Fee-Mining during 
 
 You can always tweak your installation, add new miners, add new pools, add new algorithms to get the most out of the rig - MOAMiner also gets updated regulary, providing your rig with the newest miners and new algorithms.
 
+## Currently directly supported pools:
+
+- MiningPoolHub
+- NiceHash
+- all yiimp Pools (like AHashPool, zPool, etc)
+
+## Currently Supported Miners:
+
+- almost every miner out there with an API can work with MOAMiner
+
 ## MOAMiner is made for you
 
 Join us and request features, get help or just chat with other miners
