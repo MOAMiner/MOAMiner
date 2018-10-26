@@ -49,10 +49,10 @@ You can always tweak your installation, add new miners, add new pools, add new a
 
 ## MOAMiner is made for you
 
-Join us and request features, get help or just chat with other miners
-Discord: https://discord.gg/MabJRKp
-Reddit: https://www.reddit.com/r/moaminer/
-BitcoinTalk: https://bitcointalk.org/index.php?topic=5053443.msg47047680
+Join us and request features, get help or just chat with other miners  
+Discord: https://discord.gg/MabJRKp  
+Reddit: https://www.reddit.com/r/moaminer/  
+BitcoinTalk: https://bitcointalk.org/index.php?topic=5053443.msg47047680  
 
 
 Please visit the Wiki for this repo to get more information about how to add custom miners and/or pools
