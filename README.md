@@ -31,7 +31,7 @@ MOAMiner is free to download but will switch to 15 minutes of Fee-Mining during 
 - Download the MOAMiner Installer (http://moaminer.com)
 - Select your favourite pools
 - Wait for benchmarks to finish
-- Lean back and watch your rigs running on autopilot
+- Lean back and watch your rigs running on autopilot - from everywhere - without opening any ports on your rigs
 
 You can always tweak your installation, add new miners, add new pools, add new algorithms to get the most out of the rig - MOAMiner also gets updated regulary, providing your rig with the newest miners and new algorithms.
 
